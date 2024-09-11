@@ -17,12 +17,6 @@ class NewsDetailsPage : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_news_details_page)
 
-//        var actionBar = getSupportActionBar()
-//
-//        if (actionBar != null) {
-//            actionBar.setDisplayHomeAsUpEnabled(true)
-//        }
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val newsItemString = intent.getStringExtra("newsItem")
